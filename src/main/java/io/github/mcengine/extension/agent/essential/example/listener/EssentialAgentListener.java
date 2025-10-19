@@ -1,4 +1,4 @@
-package io.github.mcengine.extension.agent.example.listener;
+package io.github.mcengine.extension.agent.essential.example.listener;
 
 import io.github.mcengine.api.core.extension.logger.MCEngineExtensionLogger;
 import org.bukkit.ChatColor;

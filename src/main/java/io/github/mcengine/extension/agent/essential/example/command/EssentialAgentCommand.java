@@ -1,4 +1,4 @@
-package io.github.mcengine.extension.agent.example.command;
+package io.github.mcengine.extension.agent.essential.example.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

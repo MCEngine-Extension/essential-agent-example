@@ -1,4 +1,4 @@
-package io.github.mcengine.extension.agent.example.tabcompleter;
+package io.github.mcengine.extension.agent.essential.example.tabcompleter;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
