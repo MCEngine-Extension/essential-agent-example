@@ -1,12 +1,12 @@
-package io.github.mcengine.extension.agent.example;
+package io.github.mcengine.extension.agent.essential.example;
 
 import io.github.mcengine.api.core.MCEngineCoreApi;
 import io.github.mcengine.api.core.extension.logger.MCEngineExtensionLogger;
-import io.github.mcengine.api.essential.extension.api.IMCEngineEssentialAPI;
+import io.github.mcengine.api.essential.extension.agent.IMCEngineEssentialAgent;
 
-import io.github.mcengine.extension.agent.example.command.EssentialAgentCommand;
-import io.github.mcengine.extension.agent.example.listener.EssentialAgentListener;
-import io.github.mcengine.extension.agent.example.tabcompleter.EssentialAgentTabCompleter;
+import io.github.mcengine.extension.agent.essential.example.command.EssentialAgentCommand;
+import io.github.mcengine.extension.agent.essential.example.listener.EssentialAgentListener;
+import io.github.mcengine.extension.agent.essential.example.tabcompleter.EssentialAgentTabCompleter;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -22,11 +22,9 @@ import java.util.List;
  * Main class for the Essential <b>Agent</b> example module.
  * <p>
  * Registers the {@code /essentialagentexample} command and related event listeners.
- * <p>
- * Note: This class name and packages were migrated from "API" to "Agent" while preserving the
- * original {@link IMCEngineEssentialAPI} integration for compatibility.
+ * Integrates with the {@link IMCEngineEssentialAgent} lifecycle.
  */
-public class ExampleEssentialAgent implements IMCEngineEssentialAPI {
+public class ExampleEssentialAgent implements IMCEngineEssentialAgent {
 
     /** Custom extension logger for this module, with contextual labeling. */
     private MCEngineExtensionLogger logger;
